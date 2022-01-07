@@ -1,6 +1,6 @@
 import React from "react";
 
-function useMedia(query: string, initialState: boolean = false) {
+export default function useMedia(query: string, initialState: boolean = false) {
   const [state, setState] = React.useState(initialState);
   const formatDebugValue = ({
     query,
@@ -32,5 +32,3 @@ function useMedia(query: string, initialState: boolean = false) {
 
   return state;
 }
-
-export default useMedia;

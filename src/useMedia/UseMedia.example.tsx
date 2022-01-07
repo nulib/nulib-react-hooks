@@ -1,7 +1,7 @@
 import React from "react";
-import useMedia from "hooks/use-media";
+import useMedia from "./use-media";
 
-const UseMedia: React.FC = () => {
+const UseMediaExample: React.FC = () => {
   const isBig = useMedia("(min-width: 1000px)");
   const isMedium = useMedia("(max-width: 999px) and (min-width: 700px)");
   const isSmall = useMedia("(max-width: 699px)");
@@ -21,4 +21,4 @@ const UseMedia: React.FC = () => {
   );
 };
 
-export default UseMedia;
+export default UseMediaExample;

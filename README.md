@@ -1,3 +1,3 @@
-# Develop and Publish a React Component with ESBuild and TypeScript
+# @nulib/nulib-react-hooks
 
-Example code repo for a Medium article located here:
+Custom React hooks for @nulib

@@ -1,3 +1,3 @@
-import useFoo from "./hooks/use-foo";
+import useFoo from "./useFoo/use-foo";
 
 export { useFoo };
